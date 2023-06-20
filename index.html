@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Richie Hales Portfolio</title>
+</head>
+
+<body>
+    <header>
+            <nav>
+                <img src="./images/logo.JPG" alt="">
+                <ul>
+                    <li><a href="#about-me">About</a></li>    
+                    <li><a href="#project-container">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>       
+                </ul>
+
+            </nav>
+    </header>
+    <div id="general-info">
+        <img src="images/laptop.JPG" alt="">
+        <div>
+            <h1>Richie Hales</h1>
+            <h2>Web Developer</h2>
+        </div>
+    </div>
+
+    <div id="about-me">
+        <h1>About Me</h1>
+        <div class="about">
+                <img src="images/profilepic.JPG" alt="">
+                <img src="images/code.JPG" alt="">
+                <div>
+                    <h4>Current Job Role</h4>        
+                    <p>Electrical Controls Engineer. Programming'
+                    PLCs, HMI's & servo drives</p>
+                    <h4>Career Goals</h4>
+                    <p>Complete <a href="https://www.codecademy.com">Codecademy</a> 
+                        Full Stack Career Path and pursue a 
+                        career in web development.</p>
+                    <h4>New Skills</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                    </ul>
+                    <h4>Hobbies</h4>
+                    <ul>
+                        <li>Running</li>
+                        <li>Gaming</li>
+                        <li>Mountain Walking</li>
+                        <li>Socialising</li>
+                    </ul>               
+                </div>
+        </div>
+    </div>
+
+    <div id="project-container">
+        <h1>Projects</h1>
+        <div class="projects">
+            <div class="project-1">
+                <button id="buttonOne" onclick="projectOne()">Click to view Cafe project</button>
+                <div id="project-1-img" style="display: none;">
+                    <img src="images/project1.JPG" alt="">
+                </div>
+            </div>
+            <div class="project-2">
+                <button id="buttonTwo" onclick="projectTwo()">Click to view Arts project</button>
+                <div id="project-2-img" style="display: none;">
+                    <img src="images/project2.JPG" alt="">
+                </div>
+            </div>
+        </div>      
+    </div>
+
+    <footer>        
+        <h3>Richie Hales</h3>
+        <h5>Web Developer</h5>
+        <div class="nav-footer">
+            <ul>
+                <li><a href="#about-me">About</a></li>    
+                <li><a href="#project-container">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>               
+            </ul>
+        </div>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+<script src="./java.js"></script>
+</html>
