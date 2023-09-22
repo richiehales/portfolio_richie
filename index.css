@@ -115,6 +115,7 @@ a:active{
 #project-container{
     padding-bottom: 2rem;
     text-align: center;
+    align-content: center;
 }
 
 
@@ -132,6 +133,22 @@ a:active{
 .projects {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+}
+
+.projects button {
+  background-color: lightgray;
+}
+
+.project-1 {
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+}
+
+.project-2 {
+    display: flex;
+    flex-direction: column;    
     text-align: center;
 }
 
@@ -178,10 +195,19 @@ footer h5{
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .projects {
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+    
+}
+
+@media (max-width: 1000px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: space-around;
+  }
+  .projects button {
+     width: 13rem;
+  }
 }
 
 @media (max-width: 620px) {
