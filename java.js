@@ -16,6 +16,8 @@ function projectOne() {
     } else {
       if (window.innerWidth < 1000) {
         a.style.flexDirection = "column";
+      } else {
+        a.style.flexDirection = "row";
       }
       b.style.width = "13rem";
       b.style.margin = "";
@@ -45,6 +47,8 @@ function projectOne() {
     } else {
       if (window.innerWidth < 1000) {
         a.style.flexDirection = "column";
+      } else {
+        a.style.flexDirection = "row";
       }
       b.style.width = "13rem";
       b.style.margin = "";
