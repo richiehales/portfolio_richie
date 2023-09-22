@@ -138,6 +138,7 @@ a:active{
 
 .projects button {
   background-color: lightgray;
+  width: 15rem;
 }
 
 .project-1 {
@@ -148,7 +149,7 @@ a:active{
 
 .project-2 {
     display: flex;
-    flex-direction: column;    
+    flex-direction: row;    
     text-align: center;
 }
 
@@ -202,8 +203,6 @@ footer h5{
   .projects {
     flex-direction: column;
     align-items: center;
-
-    justify-content: space-around;
   }
   .projects button {
      width: 13rem;
