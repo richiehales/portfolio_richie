@@ -1,139 +1,141 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header{
-    position: sticky;
-    top: 0;
-    z-index: 999;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 header img{
-    width: 12rem;
-    height: 5rem;
-    margin-top: 0.7rem;
-    margin-bottom: 0.7rem;
-    margin-left: 2rem;
-    border-radius: 2rem;
+  width: 12rem;
+  height: 5rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  margin-left: 2rem;
+  border-radius: 2rem;
 }
 
 nav{
-    display: flex;
-    color: white;
-    background-color: #253439;
+  display: flex;
+  color: white;
+  background-color: #253439;
 }
 
 nav ul{
-    list-style-type: none;
-    margin-left: auto;
-    padding-top: 0.5rem;
+  list-style-type: none;
+  margin-left: auto;
+  padding-top: 0.5rem;
  }
 
 nav li{
-    display:inline-block;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: 1rem;
+  display:inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 1rem;
 }
 
 a{
-    text-decoration: underline;
-    color: white;
+  text-decoration: underline;
+  color: white;
 }
 
 a:hover{
-    text-decoration: none;
-    cursor: pointer; 
+  text-decoration: none;
+  cursor: pointer; 
 }
 
 a:active{
-    color: black;
+  color: black;
 }
 
 #general-info{
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 #general-info img{
-    width: 100%;
-    opacity: 0.8;   
+  width: 100%;
+  opacity: 0.8;   
 }
 
 #general-info div{
-    position: absolute;
-    width: 100%;
-    top: 5%;    
+  position: absolute;
+  width: 100%;
+  top: 5%;    
 }
 
 #general-info h1, h2{
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    color: black;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: black;
 }
 
 #about-me{
-    background-color: #253439;
-    color: white;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    text-align: center;
+  background-color: #253439;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
 .about{
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
  }
 
  .about div{
-    text-align: left;
+  text-align: left;
  }
 
 .about img{
-    width: auto;
-    height: 35rem;
-    padding-top: 0.8rem;
+  width: auto;
+  height: 35rem;
+  padding-top: 0.8rem;
 }
 
 .about h4{
-    margin-top: 0.75rem;
-    margin-bottom: 0;
+  margin-top: 0.75rem;
+  margin-bottom: 0;
 }
 
 .about p{
-    width: 250px;
-    word-wrap: break-word;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
+  width: 250px;
+  word-wrap: break-word;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 .about ul{
-    margin-top: 0rem;
-    margin-bottom: 0rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 #project-container{
-    padding-bottom: 2rem;
-    text-align: center;
-    align-content: center;
+  padding-bottom: 2rem;
+  text-align: center;
+  align-content: center;
 }
 
 
 #project-container button{
-    border-radius: 1rem;
-    border: 1px solid black;
-    margin-bottom: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+  margin-bottom: 0.5rem;
 }
 
 #project-container button:hover{
-    background-color: white;
-    cursor: pointer; 
+  background-color: white;
+  cursor: pointer; 
 }
 
 .projects {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects button {
@@ -142,20 +144,22 @@ a:active{
 }
 
 .project-1 {
-    display: flex;
-    flex-direction: column;    
-    text-align: center;
+  display: flex;
+  flex-direction: column;    
+  justify-content: center;
+  align-items: center;
 }
 
 .project-2 {
-    display: flex;
-    flex-direction: row;    
-    text-align: center;
+  display: flex;
+  flex-direction: column;    
+  justify-content: center;
+  align-items: center;
 }
 
 .projects img{
-    height: 30rem;
-    border-radius: 1rem;
+  height: 30rem;
+  border-radius: 1rem;
 }
 
 .projects a {
@@ -164,20 +168,20 @@ a:active{
 }
 
 footer{
-    text-align: center;
-    background-color: #253439;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  text-align: center;
+  background-color: #253439;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 footer h3{
-    margin-bottom: 0rem;
-    color: white;
+  margin-bottom: 0rem;
+  color: white;
 }
 
 footer h5{
-    margin-top: 0.3rem;
-    color: white;
+  margin-top: 0.3rem;
+  color: white;
 }
 
 .nav-footer ul{
@@ -185,64 +189,53 @@ footer h5{
  }
 
 .nav-footer li{
-    display: inline-block;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-top: auto;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: auto;
 }
 
 @media (max-width: 1400px) {
-    .about{
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+  .about{
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
     
 }
 
-@media (max-width: 1000px) {
-  .projects {
-    flex-direction: column;
-    align-items: center;
-  }
-  .projects button {
-     width: 13rem;
-  }
-}
-
 @media (max-width: 620px) {
-    #general-info h1, h2{
-        font-size: medium;
-    }    
+  #general-info h1, h2{
+    font-size: medium;
+  }    
 }
-
 
 @media (max-width:600px) {
-    nav ul{
-        display: none;
-    }
-    nav{
-        justify-content: center;
-    }
+  nav ul{
+    display: none;
+  }
+  nav{
+    justify-content: center;
+  }
     header img{
-        margin-left: 0rem;
-    }
+      margin-left: 0rem;
+  }
 }
 
 @media (max-width:540px) {
-    .about img{
-        width: 100%;
-    }
-    .projects img{
-        width: 100%;
-    }
-    #about-me{
-        width: 100%;
-    }
+  .about img{
+     width: 100%;
+  }
+  .projects img{
+    width: 100%;
+  }
+  #about-me{
+    width: 100%;
+  }
 }
 
 @media (max-width:420px) {
-    .nav-footer li{
-        display: block;
-        margin-right: 2.5rem;
-    }
+  .nav-footer li{
+    display: block;
+    margin-right: 2.5rem;
+  }
 }
